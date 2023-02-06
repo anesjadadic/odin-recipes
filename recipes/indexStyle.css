@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(218, 209, 204);
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size:40px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: brown;
+}
+
+img {
+    border-radius: 25px;
+    border: solid 4px black;
+}
+
+.pictureContainer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 40px;;
+}
+
+.textContainer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}

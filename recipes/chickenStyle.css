@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(146, 80, 54);
+}
+
+img {
+    border-style: solid;
+    border-color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content:stretch;
+}
+
+.topBox {
+    border: solid;
+    border-color: rgb(49, 42, 33);
+    text-align: center;
+    background-color: rgb(252, 197, 125);
+    font-size: larger;
+    padding: 50px 0px 30px 0px;
+    margin: 0px 200px 0px 200px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 15px rgb(41, 56, 41);
+}
+
+.midLeftBox {
+    border: solid;
+    border-color: rgb(49, 42, 33);
+    background-color: rgb(252, 197, 125);
+    padding: 10px 40px 20px 40px;
+    margin: 20px 10px 0px 200px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 15px rgb(41, 56, 41);
+}
+
+.midRightBox {
+    flex-grow: 1;
+    border: solid;
+    border-color: rgb(49, 42, 33);
+    background-color: rgb(252, 197, 125);
+    padding: 10px 40px 20px 40px;
+    margin: 20px 200px 0px 10px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 15px rgb(41, 56, 41);
+}
+
+.bottomBox {
+    border: solid;
+    border-color: rgb(49, 42, 33);
+    text-align: center;
+    background-color: rgb(252, 197, 125);
+    margin: 20px 200px 20px 200px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 15px rgb(41, 56, 41);
+}
